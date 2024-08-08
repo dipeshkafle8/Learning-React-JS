@@ -13,8 +13,8 @@ const Dance=(props)=>{
 const App=()=>{
     return React.createElement(
         "div",
-        {id:"Mydiv"},
-        React.createElement(Dance,{name:"HipHop",
+        {id:"Mydiv"},   //passing props from parent to child
+        React.createElement(Dance,{name:"HipHop",        
             style:"New Style HipHop",
             energy:"High"
         }),
